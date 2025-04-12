@@ -3,7 +3,7 @@ services:
     name: familytree-backend
     env: java
     plan: free
-    buildCommand: "java -version && ./mvnw clean install"
+    buildCommand: "./mvnw clean install"
     startCommand: "java -jar target/*.jar"
     branch: main
     envVars:
